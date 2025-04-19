@@ -1,0 +1,14 @@
+{
+  "title": "Detect Suspicious PowerShell Use",
+  "description": "Detects PowerShell-based process execution",
+  "xql": "dataset = xdr_data | filter ...",
+  "mitre": "T1059.001",
+  "category": "Execution",
+  "usecase": "Detection",
+  "platform": ["Windows"],
+  "author": "Hazelnut ID",
+  "links": {
+    "github": "https://github.com/hazelnutid",
+    "linkedin": "https://linkedin.com/in/hazelnutid"
+  }
+}
