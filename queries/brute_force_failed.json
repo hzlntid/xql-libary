@@ -1,0 +1,16 @@
+{
+  "title": "Brute Force Failed Logons",
+  "description": "Detects brute force attacks via repeated failed login attempts.",
+  "xql": "dataset = xdr_data | filter event_type == \"AUTH\" and auth_result == \"FAILURE\" | count by src_ip",
+  "mitre": "T1110",
+  "category": "Credential Access",
+  "usecase": "Detection",
+  "platform": [
+    "Windows"
+  ],
+  "author": "Hazelnut ID",
+  "links": {
+    "github": "https://github.com/hazelnutid",
+    "linkedin": "https://linkedin.com/in/hazelnutid"
+  }
+}

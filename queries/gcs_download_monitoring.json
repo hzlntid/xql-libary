@@ -1,0 +1,16 @@
+{
+  "title": "Monitor GCS Downloads",
+  "description": "Monitors file download activities from Google Cloud Storage.",
+  "xql": "dataset = cloud_audit_logs | filter resource_name contains \"storage.googleapis.com\" and method_name == \"storage.objects.get\"",
+  "mitre": "T1567.002",
+  "category": "Exfiltration",
+  "usecase": "Monitoring",
+  "platform": [
+    "Cloud"
+  ],
+  "author": "Hazelnut ID",
+  "links": {
+    "github": "https://github.com/hazelnutid",
+    "linkedin": "https://linkedin.com/in/hazelnutid"
+  }
+}

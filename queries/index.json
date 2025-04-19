@@ -1,0 +1,7 @@
+[
+  "detect_powershell.json",
+  "dns_exfiltration.json",
+  "suspicious_rdp.json",
+  "brute_force_failed.json",
+  "gcs_download_monitoring.json"
+]

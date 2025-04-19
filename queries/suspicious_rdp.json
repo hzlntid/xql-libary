@@ -1,0 +1,16 @@
+{
+  "title": "Suspicious RDP Session",
+  "description": "Detects potential lateral movement using RDP.",
+  "xql": "dataset = xdr_data | filter event_sub_type == \"NETWORK\" and dst_port == 3389",
+  "mitre": "T1021.001",
+  "category": "Lateral Movement",
+  "usecase": "Detection",
+  "platform": [
+    "Windows"
+  ],
+  "author": "Hazelnut ID",
+  "links": {
+    "github": "https://github.com/hazelnutid",
+    "linkedin": "https://linkedin.com/in/hazelnutid"
+  }
+}

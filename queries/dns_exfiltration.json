@@ -1,0 +1,17 @@
+{
+  "title": "Suspicious DNS Exfiltration",
+  "description": "Detects uncommon DNS query patterns that may indicate data exfiltration.",
+  "xql": "dataset = dns_raw | filter query_name contains \".biz\" or \".xyz\"",
+  "mitre": "T1048.003",
+  "category": "Exfiltration",
+  "usecase": "Hunting",
+  "platform": [
+    "Windows",
+    "Cloud"
+  ],
+  "author": "Hazelnut ID",
+  "links": {
+    "github": "https://github.com/hazelnutid",
+    "linkedin": "https://linkedin.com/in/hazelnutid"
+  }
+}
