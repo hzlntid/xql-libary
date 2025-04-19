@@ -8,6 +8,7 @@
   "platform": [
     "Windows"
   ],
+  "notes": "Test notes",
   "author": "Hazelnut ID",
   "links": {
     "github": "https://github.com/hazelnutid",
